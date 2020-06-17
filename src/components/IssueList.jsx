@@ -30,7 +30,6 @@ class IssueList extends React.Component {
 
             <div>
                 <div>
-                    <Link to={`/users`}>Users</Link>
                 </div>
                 <div className="IssuesList">
                     {this.state.issues.map(issue => <Issue issue={issue} key={issue.id} />)}

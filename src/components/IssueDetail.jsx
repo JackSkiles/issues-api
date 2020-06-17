@@ -24,7 +24,7 @@ export default class IssueDetail extends Component {
         return (
             <div>
                 <Link to='/'>Home Page</Link>
-                <h1>{ this.state.detail.title }   <Link to={ this.state.detail.url }>Github</Link></h1>
+                <h1>{ this.state.detail.title }   <a href={this.state.detail.html_url} >Github</a></h1>
             </div>
         )
     }
